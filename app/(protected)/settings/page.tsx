@@ -161,7 +161,6 @@ export default function SettingsPage() {
                         </div>
                         <FormControl>
                           <Switch
-                            {...field}
                             disabled={isPending}
                             checked={field.value}
                             onCheckedChange={field.onChange}
